@@ -1,20 +1,23 @@
 {
-  "Group": "dev.hytalemodding",
-  "Name": "ExamplePlugin",
+  "Group": "xyz.starrymic",
+  "Name": "FunMessages",
   "Version": "${version}",
-  "Description": "Description of your plugin",
+  "Description": "Displays random messages in chat at certain intervals.",
   "Authors": [
     {
-      "Name": "Your Name",
-      "Email": "your.email@example.com",
-      "Url": "https://your-website.com"
+      "Name": "Starry Mic",
+      "Email": "StarryMicTwitch@gmail.com",
+      "Url": "https://www.starrymic.xyz"
     }
   ],
-  "Website": "https://your-plugin-website.com",
+  "Website": "https://www.starrymic.xyz",
   "ServerVersion": "*",
-  "Dependencies": {},
+  "Dependencies": {
+    "Serilum:Hybrid": "*",
+    "Zoltus:TinyMessage": "*"
+  },
   "OptionalDependencies": {},
   "DisabledByDefault": false,
-  "IncludesAssetPack": false,
-  "Main": "dev.hytalemodding.ExamplePlugin"
+  "IncludesAssetPack": true,
+  "Main": "xyz.starrymic.FunMessages"
 }
