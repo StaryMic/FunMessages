@@ -1,6 +1,7 @@
 package xyz.starrymic;
 
 import com.hypixel.hytale.server.core.event.events.BootEvent;
+import com.hypixel.hytale.server.core.permissions.commands.PermCommand;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
 import com.natamus.hybrid.functions.ConfigFunctions;
